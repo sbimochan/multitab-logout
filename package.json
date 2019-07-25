@@ -1,0 +1,32 @@
+{
+  "name": "multitab-logout",
+  "version": "1.0.0",
+  "description": "Utility tool that logs out from all tabs if logged out from any one tab",
+  "main": "main/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.spec.js --require ignore-styles --require @babel/polyfill --require @babel/register --recursive",
+    "build": "npx babel src --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbimochan/multitab-logout.git"
+  },
+  "keywords": [
+    "logout",
+    "broadcast",
+    "multi-tab"
+  ],
+  "author": "Bimochan Shrestha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbimochan/multitab-logout/issues"
+  },
+  "homepage": "https://github.com/sbimochan/multitab-logout#readme",
+  "dependencies": {
+    "broadcast-channel": "^2.1.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
