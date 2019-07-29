@@ -1,6 +1,6 @@
 {
   "name": "multitab-logout",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Utility tool that logs out from all tabs if logged out from any one tab",
   "main": "src/index.js",
   "scripts": {
